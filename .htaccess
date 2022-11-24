@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^index index.html [NC]
+RewriteRule ^netix netix.html [NC]
+RewriteRule ^tosato Tosato.html [NC]
+RewriteRule ^biscaro biscaro.html [NC]
+# # av:Toolbar
+SetEnv AV_TOOLBAR 0
