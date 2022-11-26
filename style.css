@@ -354,13 +354,13 @@ button {
 
 @keyframes move {
   0% {
-    transform: rotate(40deg);
+    transform: rotate(100deg);
   }
   50% {
-    transform: rotate(-40deg);
+    transform: rotate(-100deg);
   }
   100% {
-    transform: rotate(40deg);
+    transform: rotate(100deg);
   }
 }
 
