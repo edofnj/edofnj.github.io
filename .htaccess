@@ -1,7 +1,7 @@
 RewriteEngine on
 
 RewriteRule ^index index.html [NC]
-Redirect 302 ^* costruzione.html
+Redirect 302 ^index.html costruzione.html
 RewriteRule .* https://fmenegazzi.it/costruzione.html [R=302,L]
 # # av:Toolbar
 SetEnv AV_TOOLBAR 0
