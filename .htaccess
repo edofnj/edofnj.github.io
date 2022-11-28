@@ -1,6 +1,7 @@
-RewriteEngine on
-
-RewriteRule ^index index.html [NC]
-RewriteRule ^netix netix.html [NC]
-# # av:Toolbar
-SetEnv AV_TOOLBAR 0
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ #RewriteCond %{REMOTE_ADDR} !^255\.255\.255\.255
+ RewriteCond %{REQUEST_URI} !/costruzione.html$ [NC]
+ RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif) [NC]
+ RewriteRule .* http://fmenegazzi.it/costruzione.html [R=302,L]
+</IfModule>
