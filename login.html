@@ -1,0 +1,46 @@
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> 3AII - LOGIN </title>
+		<link rel="stylesheet" href="login/login.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<script src="login/login.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	</head>
+
+	<body>
+		<h1> 3AII - 2022/2023 </h1>
+		
+		<div class="box">
+    		<form class= "form" action="https://fmenegazzi.it/prova/index" method="post" target="_self">
+        		<h2>LOGIN</h2>
+        		
+                <div class="inputBox">
+            		<input type= "text" id= "utente" name= "utente" required="required">
+                    <i></i>
+            		<span>UTENTE</span>
+        		</div>
+        		
+                <div class="inputBox">
+           			<input type= "password" id= "password" name= "password" required="required">
+                    <i></i>
+            		<span>PASSWORD</span>
+        		</div>
+                                
+                                
+                <div class="links">
+				    <a href="http://mp3aii.altervista.org/assistenza.php">PASSWORD DIMENTICATA?</a>
+        		</div>
+                
+                <a id= "btn_psw" onclick="guarda_password()">
+        			<i class='bx bxs-low-vision'></i>
+        		</a>
+
+        		<input type="submit" value="LOGIN" class="c">
+    		</form>
+		</div>
+	</body>
+</html>
