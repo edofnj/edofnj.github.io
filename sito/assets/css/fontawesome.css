@@ -6,6 +6,7 @@
  .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900); }
+  
 
 .fa,
 .fas,
