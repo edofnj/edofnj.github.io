@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 578 First Portfolio
-
-https://templatemo.com/tm-578-first-portfolio
-
-*/
 
 
 /*---------------------------------------
@@ -1185,3 +1179,14 @@ strong {
   }
 }
 
+.featured, .clients, .services, footer, .contact, .about{
+	display:none;
+}
+
+.icon{
+  color: var(--dark-color);
+  width: 47px;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+}
