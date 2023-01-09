@@ -1,1 +1,0 @@
-CKEDITOR.plugins.setLang("document","nl",{menu:"Document wijzigen",toolbar:"Document invoegen/wijzigen"})

@@ -1,1 +1,0 @@
-CKEDITOR.plugins.setLang("document","de",{menu:"Dokument editieren",toolbar:"Dokument einfügen/editieren"})

@@ -1,1 +1,0 @@
-CKEDITOR.plugins.setLang("pagebreak2","en",{label:"Page Break"})
