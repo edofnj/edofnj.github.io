@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html>
- <head>
- <link rel="stylesheet" href="css/costruzione.css"/>
- <link rel="icon" href ="immagini/esclamation_mark.png" />
-  <title>Edoardo Menegazzi</title>
-  <meta name="title" content="Edoardo Menegazzi - Home">
-  <meta name="description" content="Questo sito offre le informazioni su Edoardo Menegazzi">
-  <meta name="keywords" content="edoardo, menegazzi, sito, personale, informazioni,">
-  <meta name="robots" content="index, follow">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="author" content="Edoardo Menegazzi">
-  <style>
-   h1 { font-size: 50px; }
-   body { text-align:center; font: 20px Oswald, sans-serif; color: #00000; }
-  </style>
- </head>
- <body>
-  <h1>Sito in Costruzione</h1>
-  <img src="immagini/costruzione.png" />
-  <p style="margin-top: 40px; font-size: 14px; color: #666"><em>il Drake</em></p>
- </body>
- <script>   <!-- blocco tasto destro del mouse -->
-  function blocco_mousedx()
-   { return(false); }
-  document.oncontextmenu = blocco_mousedx;
-</script>
-<script> <!-- blocco scorciatoie da tastiera -->
- document.onkeydown = function(blocco_tasti) {
-  if(event.keyCode == 123) 
-{ return false; }
-  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'I'.charCodeAt(0)) { return false; }
-  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
-  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'J'.charCodeAt(0)) { return false; }
-  if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'U'.charCodeAt(0)) 
-{ return false; } 
-}
-</script>
+
+<head>
+  <Title>Home - Menegazzi Edoardo</Title>
+  <link rel="stylesheet" href="css/homepage.css" />
+  <link href='https://fonts.googleapis.com/css?family=Martian Mono' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body id="home">
+  <nav>
+    <ul>
+      <img class="foto" src="favicon.ico">
+      <h1 class="title">EDOARDO MENEGAZZI</h1>
+      <li class="different scroll"><a href="#contatti">Contatti</a></li>
+      <li class="different scroll"><a href="#esercizi">Esercizi</a></li>
+      <li class="different scroll"><a href="#Curriculum">Curriculum</a></li>
+      <li class="different scroll"><a href="#home">Home</a></li>
+    </ul>
+  </nav>
+  <table class="esercizi" id="profilo">
+    <tr>
+      <td class="esercizio">Ciao sono Edoardo<br>uno studente del Planck in classe 3AII </td>
+    </tr>
+  </table>
+  <div class="esercizi" id="Curriculum">
+    <a href="https://www.fmenegazzi.it/Curriculum" id="Curriculum">
+      <h4 class="esercizio">Curriculum</h4>
+    </a>
+    <a href="https://www.fmenegazzi.it/portfolio/images/projects/scheda_studente/Menegazzi_scheda_studente.html"
+      id="esercizi">
+      <h4 class="esercizio">Scheda studente</h4>
+    </a>
+    <a href="https://www.fmenegazzi.it/portfolio/images/projects/Menegazzi_terra/laterra.html">
+      <h4 class="esercizio">La terra</h4>
+    </a>
+    <a href="https://www.fmenegazzi.it/portfolio/images/projects/Esercizio2/Menegazzi_es_2.html">
+      <h4 class="esercizio">Switch/Router</h4>
+    </a>
+  </div>
+  <footer id="contatti" class="testo_contatti">
+    <p class="link"><a href="https://instagram.com/edoardo_menegazzi" target="_blank"> <img class="social"
+          src="immagini/instagram.svg" /></a></p>
+    <p>Contatti:</p>
+    <p class="link"><a href="emailto:edoardo@fmenegazzi.it">edoardo@fmenegazzi.it</a></p>
+    <p class="link"><a href="https://www.fmenegazzi.it">www.fmenegazzi.it</a></p>
+
+  </footer>
+</body>
+<script src="https://mobirise.com/extensions/glassm5/corporate/assets/smoothscroll/smooth-scroll.js"></script>
+
 </html>

@@ -1,0 +1,37 @@
+table{
+	background-color: #00ffff;
+	padding-right:12.5px;
+	padding-left:12.5px;
+	padding-top:12.5px;
+}
+
+table,th,td{
+	text-align:center;
+	border:1px solid black;
+}
+
+img{
+	height:100px;
+	width:250px;
+}
+
+.colonna{
+	padding-left:40px;
+	padding-right:40px;
+}
+
+td{
+	background-color: #adff2f;
+}
+
+th{
+	background-color: #32cd32;
+}
+
+.title{
+	text-align:center;
+	color:black;
+	border:0px;
+	background-color: #00ffff;
+	font-size:25px;
+}

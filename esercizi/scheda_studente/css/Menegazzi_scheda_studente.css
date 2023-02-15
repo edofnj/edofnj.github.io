@@ -1,0 +1,19 @@
+table{
+	border-collapse:collapse;
+}
+
+table,td{
+	border:1px solid black;
+}
+h1{
+	font-size:30px;
+}
+
+td{
+	width:130px;
+	height:30px;
+	background-color:#F5F5ZZ;
+}
+body{
+	background-color:#F5F5DC;
+}

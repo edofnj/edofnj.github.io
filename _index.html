@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/costruzione.css" />
+  <link rel="icon" href="immagini/esclamation_mark.png" />
+  <title>Sito in Costruzione</title>
+  <meta name="title" content="Edoardo Menegazzi - Home">
+  <meta name="description" content="Questo sito offre le informazioni su Edoardo Menegazzi">
+  <meta name="keywords" content="edoardo, menegazzi, sito, personale, informazioni,">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="author" content="Edoardo Menegazzi">
+  <style>
+    h1 {
+      font-size: 50px;
+    }
+
+    body {
+      text-align: center;
+      font: 20px Oswald, sans-serif;
+      color: #00000;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Sito in Costruzione</h1>
+  <img src="immagini/costruzione.png" />
+  <p style="margin-top: 40px; font-size: 14px; color: #666"><em>il Drake</em></p>
+</body>
+<script>   < !--blocco tasto destro del mouse-- >
+    function blocco_mousedx() {return (false);}
+  document.oncontextmenu = blocco_mousedx;
+</script>
+<script> < !--blocco scorciatoie da tastiera-- >
+    document.onkeydown = function(blocco_tasti) {
+      if (event.keyCode == 123) {return false;}
+      if (blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'I'.charCodeAt(0)) {return false;}
+      if (blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) {return false;}
+      if (blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'J'.charCodeAt(0)) {return false;}
+      if (blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'U'.charCodeAt(0)) {return false;}
+    }
+</script>
+
+</html>
