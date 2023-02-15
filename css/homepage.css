@@ -229,6 +229,6 @@ li:hover {
   font-weight: bold;
 }
 
-#scheda_studente{
-  
+body::-webkit-scrollbar {
+  display: none;
 }
