@@ -232,3 +232,22 @@ li:hover {
 body::-webkit-scrollbar {
   display: none;
 }
+
+#TestoAnimato {
+  animation: myanimation 7s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    color: black;
+    font-size: 30px;
+  }
+  50% {
+    color: black;
+    font-size: 50px;
+  }
+  100% {
+    color: black;
+    font-size: 30px;
+  }
+}
