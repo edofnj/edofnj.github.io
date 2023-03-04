@@ -60,13 +60,17 @@
 
   </footer>
   <script>
-	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-   window.location.href = "https://m.fmenegazzi.it";
-} else {
-   window.location.href = "https://www.fmenegazzi.it";
-}
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+       if (location.href.indexOf("m.fmenegazzi.it") == -1) {
+          window.location.href = "https://m.fmenegazzi.it";
+       }
+    } else {
+       if (location.href.indexOf("www.fmenegazzi.it") == -1) {
+          window.location.href = "https://www.fmenegazzi.it";
+       }
+    }
+</script>
 
-  </script>
   <script src="https://mobirise.com/extensions/glassm5/corporate/assets/smoothscroll/smooth-scroll.js"></script>
 </body>
 </html>
